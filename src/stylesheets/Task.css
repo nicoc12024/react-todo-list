@@ -1,0 +1,25 @@
+.task-container {
+  max-width: 90%;
+  margin: 1rem auto;
+  padding: 0.6rem 1rem;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: antiquewhite;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px;
+}
+
+.task-container .task-icon {
+  cursor: pointer;
+}
+
+.task-container .task-text {
+  cursor: pointer;
+}
+
+/* Completed task */
+.task-container.completed {
+  background-color: #404d6c;
+  text-decoration: line-through;
+}

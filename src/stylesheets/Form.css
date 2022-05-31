@@ -1,0 +1,27 @@
+.form {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 15px;
+}
+
+input {
+  width: 80%;
+  padding: 0.59rem;
+  background-color: rgb(255, 255, 255);
+  outline: none;
+  border: none;
+}
+
+.addTask {
+  width: 20%;
+  padding: 0.58rem;
+  border: none;
+  cursor: pointer;
+  background-color: #14a4d8;
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+  transition: 0.1s;
+}
+
+.addTask:hover {
+  background-color: #2ebaef;
+}
